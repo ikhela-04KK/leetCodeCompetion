@@ -1,5 +1,6 @@
 # creer une liste de trois listes contenant 3 nombres entiers 
 
+#permet de trouver l'intersection de trois liste afin de pouvoir determiner les éléments communm au deux liste
 def solution(listes):
     nums_1 = set(listes[0])
     for i in range(len(listes)-1):
