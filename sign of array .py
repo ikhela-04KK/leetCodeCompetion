@@ -1,4 +1,4 @@
-
+#fonction qui permet de determiner le signe d'un tableau
 class solution(object):
 
     def arraySignAndProd(self,nums):
@@ -12,4 +12,4 @@ class solution(object):
 
 
 nums = solution()
-print(nums.arraySignAndProd([1,2,10]))
+print(nums.arraySignAndProd([-1,2,10,0]))
