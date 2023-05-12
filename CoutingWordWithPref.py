@@ -1,6 +1,7 @@
 from memory_profiler import profile
 class Solution(object):
-    @profile
+    @profile  # deroule le code ligne par ligne de telle sorte à pouvoir avoir une sorite avec à côté le temps d'usage.  
+    
     def prefixCount(self, words, pref):
         # n = len(pref)
         # nword = 0
